@@ -1,69 +1,25 @@
-<!-- 🔥 Animated Header Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Nahid%20Hasan&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
-</p>
+# Nahid Hasan — IT Professional Portfolio
 
-<!-- 👋 Intro -->
-<h1 align="center">Hi 👋, I'm Nahid Hasan</h1>
+Static, bilingual (English/Japanese) portfolio designed for GitHub Pages.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Web+Developer;Freelancer;Digital+Services+Provider;ICT+Enthusiast;Building+with+vibes+😎" />
-</p>
+## Publish on GitHub Pages
 
----
+Upload the contents of this folder to the repository used for your GitHub Pages site (for example `primenahid.github.io`). GitHub Pages can publish static HTML, CSS, JavaScript and image assets directly from a repository. For a custom workflow, GitHub also supports deploying Pages with GitHub Actions.
 
-<!-- 🔗 Social Links -->
-<p align="center">
-  <a href="https://primenahid.github.io">
-    <img src="https://img.shields.io/badge/🌐 Portfolio-000?style=for-the-badge"/>
-  </a>
-  <a href="https://www.facebook.com/ProjuktibariIT">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://wa.me/8801710294551">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  </a>
-</p>
+## Update content
 
----
+Most visible content is in `index.html`.
 
-## 🚀 About Me
-- 💻 Web Developer  
-- 🚀 Digital Services | Projukti Bari  
-- 🎯 Freelancer  
-- 📍 Bangladesh  
-- ⚡ Vibe Coder 😎  
+- Experience text and dates: `index.html`
+- Education and training: `index.html`
+- Images: `assets/images/`
+- Language translations: `assets/js/script.js`
+- Styling: `assets/css/style.css`
 
----
+## Visitor counter
 
-## 🛠️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,github,vscode" />
-</p>
+The site currently uses a browser-local view counter so the static site never displays a fake global count. A real global counter requires an external counter service or backend. The integration point is `configuredEndpoint` in `assets/js/script.js`.
 
----
+## Privacy
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=primenahid&show_icons=true&theme=tokyonight" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=primenahid&theme=tokyonight" height="180"/>
-</p>
-
----
-
-## 🔥 Top Project
-🌐 Portfolio Website → https://primenahid.github.io  
-
----
-
-## 👀 Visitor Counter
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=primenahid&label=Profile+Views&color=blue&style=flat" />
-</p>
-
----
-
-<!-- 🔥 Footer Wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
-</p>
+Do not publish sensitive documents or unredacted personal records on a public repository. Review certificate/ID-card images before deploying publicly.

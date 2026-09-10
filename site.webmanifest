@@ -1,0 +1,15 @@
+{
+  "name": "Nahid Hasan | IT Professional",
+  "short_name": "Nahid Hasan",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10243a",
+  "icons": [
+    {
+      "src": "assets/images/profile/nahid-hasan.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
