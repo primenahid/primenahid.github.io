@@ -1,15 +1,12 @@
 {
-  "name": "Nahid Hasan | IT Professional",
+  "name": "Nahid Hasan — Portfolio",
   "short_name": "Nahid Hasan",
-  "start_url": ".",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#10243a",
+  "background_color": "#f7f5f0",
+  "theme_color": "#14171f",
   "icons": [
-    {
-      "src": "assets/images/profile/nahid-hasan.png",
-      "sizes": "1024x1024",
-      "type": "image/png"
-    }
+    { "src": "assets/images/profile/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/profile/nahid-hasan-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
