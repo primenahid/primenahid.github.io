@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mentor, HR &amp; IT Expert | Nahid Hasan (Prime)</title>
-  <meta name="description" content="Nahid Hasan (Prime) — mentor, HR professional and IT expert, founder of EdQoR Academy. JLPT N4 &amp; JFT-Basic A2. Free 30-day JLPT N5 book for Bangladeshi learners.">
+  <meta name="description" content="Nahid Hasan (Prime) — Japanese JLPT N5/N4 trainer, HR professional &amp; IT expert. Founder of EdQoR Academy. Free 30-day JLPT N5 book for Bangladeshi learners.">
   <meta name="author" content="Nahid Hasan">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <!-- Reviews backend: paste your Google Apps Script Web App URL here (see setup/REVIEWS-SETUP.md) -->
@@ -57,12 +57,14 @@
         "email":"mailto:primenahid@gmail.com",
         "knowsAbout":["HR Administration","IT Support","WordPress","Digital Marketing","Japanese Language","JLPT","ICT Education"],
         "knowsLanguage":["bn","en","ja"],
+        "address":{"@type":"PostalAddress","addressCountry":"BD"},
+        "hasCredential":[{"@type":"EducationalOccupationalCredential","name":"JLPT N4"},{"@type":"EducationalOccupationalCredential","name":"JFT-Basic A2"},{"@type":"EducationalOccupationalCredential","name":"Project Management Essentials Certified (PMEC)"}],
         "founder":[{"@id":"https://primenahid.github.io/#edqor"},{"@id":"https://primenahid.github.io/#projuktibari"}],
         "sameAs":["https://github.com/primenahid","https://facebook.com/primenahid","https://edqoracademy.com","https://projuktibari.com"]
       },
       {
         "@type":"EducationalOrganization","@id":"https://primenahid.github.io/#edqor",
-        "name":"EdQoR Academy","alternateName":"EdQoR","foundingDate":"2026","logo":"https://primenahid.github.io/assets/images/brand/edqor-logo-light.svg","founder":{"@id":"https://primenahid.github.io/#person"},
+        "name":"EdQoR Academy","alternateName":"EdQoR","address":{"@type":"PostalAddress","addressCountry":"BD"},"areaServed":"Bangladesh","foundingDate":"2026","logo":"https://primenahid.github.io/assets/images/brand/edqor-logo-light.svg","founder":{"@id":"https://primenahid.github.io/#person"},
         "url":"https://edqoracademy.com"
       },
       {
@@ -70,6 +72,10 @@
         "name":"Projukti Bari","foundingDate":"2025","description":"Digital agency — WordPress website development, software licenses, themes, plugins and premium online tools.",
         "url":"https://projuktibari.com","logo":"https://primenahid.github.io/assets/images/brand/projukti-bari-logo.webp",
         "founder":{"@id":"https://primenahid.github.io/#person"}
+      },
+      {
+        "@type":"Service","name":"Japanese language training (JLPT N5 & N4)",
+        "provider":{"@id":"https://primenahid.github.io/#edqor"},"areaServed":"Bangladesh","serviceType":"Language training"
       },
       {
         "@type":"Book","name":"EdQoR Academy — 30-Day JLPT N5 Foundation (Bangladesh Edition)",
@@ -280,6 +286,17 @@
           <h2 data-i18n="ven.title">Two companies I lead.</h2>
           <p data-i18n="ven.lead">Education and digital services — built to help learners and businesses in Bangladesh grow.</p>
         </header>
+        <div class="founder reveal">
+          <img class="founder__photo" src="assets/images/profile/nahid-hasan.webp" alt="Nahid Hasan (Prime)" width="96" height="96" loading="lazy">
+          <div class="founder__info">
+            <span class="founder__label" data-i18n="ven.behind">The person behind both companies</span>
+            <h3>Nahid Hasan <span>(Prime)</span></h3>
+            <p data-i18n="ven.founderRole">Founder &amp; Chairman — EdQoR Academy &amp; Projukti Bari</p>
+          </div>
+          <ul class="founder__creds" aria-label="Key credentials">
+            <li>JLPT N4</li><li>JFT-Basic A2</li><li>PMEC</li><li>Google ×3</li>
+          </ul>
+        </div>
         <div class="ventures">
           <article class="venture reveal">
             <div class="venture__logo venture__logo--edq"><svg class="edqor-logo" viewBox="0 0 530 160" role="img" aria-label="EdQoR Academy"><use href="#edqor-logo"/></svg></div>
@@ -860,6 +877,16 @@
   </main>
 
   <footer class="footer">
+    <div class="container footer__creds">
+      <span class="footer__creds-label" data-i18n="footer.creds">Certifications</span>
+      <ul>
+        <li><strong>JLPT N4</strong> · Japanese-Language Proficiency Test</li>
+        <li><strong>JFT-Basic A2</strong> · Japan Foundation Test</li>
+        <li><strong>PMEC</strong> · Project Management Essentials Certified · MSI #340169246</li>
+        <li><strong>Google Career Certificates</strong> · Technical Support · Cybersecurity · Digital Marketing (Coursera)</li>
+        <li><strong>BTEB</strong> · Diploma in Computer Science · Spoken English A+</li>
+      </ul>
+    </div>
     <div class="container footer__inner">
       <p>© <span id="year">2026</span> Nahid Hasan</p>
       <p class="footer__ja" lang="ja">ありがとうございます</p>
