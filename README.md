@@ -33,11 +33,14 @@ Plain HTML + CSS + JavaScript — no build step, no dependencies. Works directly
 3. *Settings → Pages* → Source: **Deploy from a branch**, Branch: **main** / **root**.
 4. Wait ~1 minute, then open https://primenahid.github.io (hard-refresh with Ctrl+Shift+R).
 
+## Note
+All JavaScript is built into `index.html` (no separate `.js` file), so the site keeps working even if a file is missed during upload.
+
 ## Editing content
 | What | Where |
 |---|---|
 | English text (default) | `index.html` |
-| All translations (EN + JA) | `assets/js/main.js` → `const T = { en: {...}, ja: {...} }` |
+| All translations (EN + JA) | inside `index.html` (search for `const T = {`) |
 | Colours, fonts, spacing | `assets/css/style.css` → `:root` variables at the top |
 | Photos | `assets/images/<section>/` (full size) and `.../thumbs/` (≈640px wide) |
 
