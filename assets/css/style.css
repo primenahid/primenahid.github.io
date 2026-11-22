@@ -1363,3 +1363,17 @@ html[lang="ja"] .hero__title .w--accent > span { animation: riseFade .8s var(--e
 }
 @media print { .founder, .footer__creds { display: none !important; } }
 @media (max-width: 640px) { .portrait { width: min(48vw, 190px); } .hero__grid { gap: 18px; } .hero__visual { padding-top: 8px; } .chip { font-size: 11px; padding: 5px 9px; } .chip .icon { width: 13px; height: 13px; } .chip--a { left: -14%; } .chip--b { right: -14%; } }
+
+/* ---- Photo logo ---- */
+.avatar-logo { position: relative; display: block; flex: none; border-radius: 50%; overflow: visible; }
+.avatar-logo img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent); }
+.avatar-logo::after { content: ""; position: absolute; right: -1px; top: -1px; width: 11px; height: 11px; border-radius: 50%; background: var(--ok); border: 2px solid var(--bg); }
+.brand__logo { width: 40px; height: 40px; animation: none !important; transition: transform .45s var(--ease); }
+.brand:hover .brand__logo { transform: rotate(-6deg) scale(1.06); }
+.brand::after { left: 30px; top: -1px; width: 11px; height: 11px; background: var(--ok); }
+.loader__logo { width: 112px; height: 112px; animation: nhPop .6s var(--ease) both; }
+.loader__logo img { box-shadow: 0 0 0 4px var(--ink), 0 0 0 7px var(--accent), 0 24px 50px -10px rgba(189,56,34,.55); filter: grayscale(.1); }
+.loader__logo::after { width: 18px; height: 18px; right: 4px; top: 4px; border-width: 3px; border-color: var(--ink); }
+/* Pure-CSS safety: the intro can never stay on screen */
+.js.is-loading .loader { animation: loaderAutoHide .8s cubic-bezier(.77,0,.18,1) 3.6s forwards; }
+@keyframes loaderAutoHide { to { clip-path: inset(0 0 100% 0); visibility: hidden; } }

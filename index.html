@@ -25,7 +25,7 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
 
@@ -39,7 +39,7 @@
 
   <!-- Apply saved theme before paint to avoid a flash -->
   <script>
-    (function(){var d=document.documentElement;d.classList.add("js");try{var t=localStorage.getItem("nh-theme");if(t)d.dataset.theme=t;}catch(e){}var skip=matchMedia("(prefers-reduced-motion: reduce)").matches;try{if(sessionStorage.getItem("nh-intro"))skip=true;}catch(e){}d.classList.add(skip?"no-loader":"is-loading");})();
+    (function(){var d=document.documentElement;d.classList.add("js");try{var t=localStorage.getItem("nh-theme");if(t)d.dataset.theme=t;}catch(e){}var skip=matchMedia("(prefers-reduced-motion: reduce)").matches;try{if(sessionStorage.getItem("nh-intro"))skip=true;}catch(e){}d.classList.add(skip?"no-loader":"is-loading");setTimeout(function(){if(d.dataset.ready)return;d.classList.remove("is-loading","js");d.classList.add("no-loader");var l=document.getElementById("loader");if(l)l.remove();},4500);})();
   </script>
   <script defer src="assets/js/main.js"></script>
 
@@ -92,7 +92,7 @@
 <body>
   <div class="loader" id="loader" aria-hidden="true">
     <div class="loader__inner">
-      <svg class="nh-logo loader__logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#nh-mark"/></svg>
+      <span class="avatar-logo loader__logo"><img src="assets/images/brand/nh-avatar.webp" alt="" width="104" height="104"></span>
       <span class="loader__name">Nahid Hasan <em>(Prime)</em></span>
       <span class="loader__tag">Mentor · HR · IT</span>
       <span class="loader__bar"><i></i></span>
@@ -146,7 +146,7 @@
   <header class="header" id="top">
     <div class="container header__inner">
       <a class="brand" href="#home">
-        <svg class="nh-logo brand__logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#nh-mark"/></svg>
+        <span class="avatar-logo brand__logo"><img src="assets/images/brand/nh-avatar.webp" alt="" width="40" height="40"></span>
         <span class="brand__nh">NH</span>
         <span class="brand__name">Nahid Hasan</span>
       </a>
