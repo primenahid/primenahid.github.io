@@ -44,8 +44,15 @@ Plain HTML + CSS + JavaScript — no build step, no dependencies. Works directly
 Text with a `data-i18n="key"` attribute is replaced by the translation for that key — when you change English
 text, update the same key in both `en` and `ja` in `main.js`.
 
-**Update the free book:** replace `assets/books/EdQoR-N5-30-Day-Foundation.pdf` with the new version (keep the same file
+**Update the free book:** replace `assets/books/EdQoR-Academy-N5-30-Day-Foundation.pdf` with the new version (keep the same file
 name), and if the cover changed, replace `assets/images/book/cover.webp`.
+
+**EdQoR Academy website:** linked as https://edqoracademy.com (hero badge, experience card, free book, contact).
+
+**Reviews & testimonials:** visitors click **Write a review** (name, role, star rating, review, optional photo).
+Follow `setup/REVIEWS-SETUP.md` once (≈10 min, free) — then every review is saved automatically to your Google Sheet,
+the photo to Google Drive, and you get an email. Tick **Approved** in the sheet and it appears on the site.
+Until then, reviews are emailed to you. You can also add reviews by hand in `assets/data/reviews.json`.
 
 **Add a LinkedIn link:** copy one `<li>` in the `contact__list` in `index.html` and change the URL/label.
 
