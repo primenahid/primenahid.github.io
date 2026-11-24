@@ -34,12 +34,12 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet"></noscript>
-  <link rel="preload" as="image" href="assets/images/profile/nahid-hasan.webp">
+  <link rel="preload" as="image" href="assets/images/profile/nahid-hasan-720.webp" imagesrcset="assets/images/profile/nahid-hasan-440.webp 440w, assets/images/profile/nahid-hasan-720.webp 720w" imagesizes="(max-width: 640px) 240px, 440px" fetchpriority="high">
   <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Apply saved theme before paint to avoid a flash -->
   <script>
-    (function(){var d=document.documentElement;d.classList.add("js");try{var t=localStorage.getItem("nh-theme");if(t)d.dataset.theme=t;}catch(e){}var skip=matchMedia("(prefers-reduced-motion: reduce)").matches;try{if(sessionStorage.getItem("nh-intro"))skip=true;}catch(e){}d.classList.add(skip?"no-loader":"is-loading");setTimeout(function(){if(d.dataset.ready)return;d.classList.remove("is-loading","js");d.classList.add("no-loader");var l=document.getElementById("loader");if(l)l.remove();},4500);})();
+    (function(){var d=document.documentElement;d.classList.add("js");try{var t=localStorage.getItem("nh-theme");if(t)d.dataset.theme=t;}catch(e){}var skip=matchMedia("(prefers-reduced-motion: reduce)").matches;try{if(sessionStorage.getItem("nh-intro"))skip=true;}catch(e){}d.classList.add(skip?"no-loader":"is-loading");setTimeout(function(){if(d.dataset.ready)return;d.classList.remove("is-loading","js");d.classList.add("no-loader");var l=document.getElementById("loader");if(l)l.remove();},3000);})();
   </script>
 
   <script type="application/ld+json">
@@ -51,8 +51,8 @@
         "name":"Nahid Hasan","alternateName":"Prime",
         "url":"https://primenahid.github.io/",
         "image":"https://primenahid.github.io/assets/images/profile/nahid-hasan-512.png",
-        "jobTitle":["Mentor","HR Professional","IT Expert","Founder & Chairman of EdQoR Academy","Founder & Chairman of Projukti Bari","CMO at Scholars' Base","HR Officer at Growth IT"],
-        "worksFor":[{"@type":"Organization","name":"Scholars' Base","url":"https://scholarsbase.academy/"},{"@type":"Organization","name":"Growth IT"}],
+        "jobTitle":["Mentor","HR Professional","IT Expert","Founder & Chairman of EdQoR Academy","Founder & Chairman of Projukti Bari","HR Officer at Growth IT"],
+        "worksFor":[{"@type":"Organization","name":"Growth IT"}],
         "email":"mailto:primenahid@gmail.com",
         "knowsAbout":["HR Administration","IT Support","WordPress","Digital Marketing","Japanese Language","JLPT","ICT Education"],
         "knowsLanguage":["bn","en","ja"],
@@ -212,10 +212,10 @@
           </ul>
         </div>
 
-        <div class="hero__visual reveal">
+        <div class="hero__visual">
           <div class="portrait">
             <div class="portrait__ring" aria-hidden="true"></div>
-            <img src="assets/images/profile/nahid-hasan.webp" alt="Portrait of Nahid Hasan" width="720" height="720" fetchpriority="high">
+            <img src="assets/images/profile/nahid-hasan-720.webp" srcset="assets/images/profile/nahid-hasan-440.webp 440w, assets/images/profile/nahid-hasan-720.webp 720w" sizes="(max-width: 640px) 240px, 440px" alt="Portrait of Nahid Hasan" width="720" height="720" fetchpriority="high" decoding="async">
             <div class="portrait__orbit" aria-hidden="true">
               <span class="orb orb--1"><svg viewBox="0 0 200 160"><use href="#edqor-mark"/></svg></span>
               <span class="orb orb--2"><img src="assets/images/brand/projukti-bari-mark.webp" alt=""></span>
@@ -285,17 +285,17 @@
           <h2 data-i18n="ven.title">Two companies I lead.</h2>
           <p data-i18n="ven.lead">Education and digital services — built to help learners and businesses in Bangladesh grow.</p>
         </header>
-        <div class="founder reveal">
-          <img class="founder__photo" src="assets/images/profile/nahid-hasan.webp" alt="Nahid Hasan (Prime)" width="96" height="96" loading="lazy">
+        <section class="founder reveal" id="founder" aria-label="Founder">
+          <img class="founder__photo" src="assets/images/profile/nahid-hasan-440.webp" alt="Nahid Hasan (Prime)" width="96" height="96" loading="lazy">
           <div class="founder__info">
-            <span class="founder__label" data-i18n="ven.behind">The person behind both companies</span>
+            <span class="founder__label" data-i18n="ven.behind">Founder &amp; team lead</span>
             <h3>Nahid Hasan <span>(Prime)</span></h3>
             <p data-i18n="ven.founderRole">Founder &amp; Chairman — EdQoR Academy &amp; Projukti Bari</p>
           </div>
           <ul class="founder__creds" aria-label="Key credentials">
             <li>JLPT N4</li><li>JFT-Basic A2</li><li>PMEC</li><li>Google ×3</li>
           </ul>
-        </div>
+        </section>
         <div class="ventures">
           <article class="venture reveal">
             <div class="venture__logo venture__logo--edq"><svg class="edqor-logo" viewBox="0 0 530 160" role="img" aria-label="EdQoR Academy"><use href="#edqor-logo"/></svg></div>
@@ -358,22 +358,6 @@
         <ol class="timeline">
           <li class="timeline__rail" aria-hidden="true"><span class="timeline__fill"></span></li>
 
-          <li class="job reveal" style="--brand:#5b13a8">
-            <div class="job__head">
-              <a class="job__brand" href="https://scholarsbase.academy/" target="_blank" rel="noopener" aria-label="Scholars' Base website"><img src="assets/images/brand/scholars-base-mark.webp" alt="" width="160" height="160" loading="lazy"></a>
-              <div class="job__titles">
-                <h3 data-i18n="jobsb.title">CMO — Chief Monitoring Officer</h3>
-                <p class="job__org"><span>Scholars' Base</span> <a class="job__site" href="https://scholarsbase.academy/" target="_blank" rel="noopener">scholarsbase.academy <svg class="icon"><use href="#i-arrow"/></svg></a></p>
-              </div>
-              <div class="job__meta"><span class="job__date">2026 – <span data-i18n="exp.present">Present</span></span><span class="badge badge--live" data-i18n="exp.current">Current</span></div>
-            </div>
-            <div class="job__body">
-              <p data-i18n="jobsb.text">Part of the leadership team at Scholars' Base, an English-language learning centre in Bangladesh offering live online IELTS preparation, Spoken English, Kids English and Phonics programs — overseeing day-to-day operations and quality to help learners “learn today and lead tomorrow”.</p>
-              <ul class="tags"><li>Leadership</li><li>Operations</li><li>Quality Monitoring</li><li>EdTech</li><li>IELTS &amp; English</li></ul>
-              
-            </div>
-          </li>
-
           <li class="job reveal" style="--brand:#f26b1d">
             <div class="job__head">
               <span class="job__brand"><img src="assets/images/brand/growth-it-mark.webp" alt="" width="160" height="160" loading="lazy"></span>
@@ -386,6 +370,22 @@
             <div class="job__body">
               <p data-i18n="jobgi.text">Handling the HR function — recruitment and onboarding, employee records and documentation, attendance and leave tracking, and supporting a healthy, productive workplace.</p>
               <ul class="tags"><li>Human Resources</li><li>Recruitment</li><li>Onboarding</li><li>Employee Records</li><li>HR Administration</li></ul>
+              
+            </div>
+          </li>
+
+          <li class="job reveal" style="--brand:#5b13a8">
+            <div class="job__head">
+              <a class="job__brand" href="https://scholarsbase.academy/" target="_blank" rel="noopener" aria-label="Scholars' Base website"><img src="assets/images/brand/scholars-base-mark.webp" alt="" width="160" height="160" loading="lazy"></a>
+              <div class="job__titles">
+                <h3 data-i18n="jobsb.title">CMO — Chief Monitoring Officer</h3>
+                <p class="job__org"><span>Scholars' Base</span> <a class="job__site" href="https://scholarsbase.academy/" target="_blank" rel="noopener">scholarsbase.academy <svg class="icon"><use href="#i-arrow"/></svg></a></p>
+              </div>
+              <div class="job__meta"><span class="job__date" data-i18n="jobsb.date">2026 – Nov 2026</span></div>
+            </div>
+            <div class="job__body">
+              <p data-i18n="jobsb.text">Served on the leadership team at Scholars' Base, an English-language learning centre in Bangladesh offering live online IELTS preparation, Spoken English, Kids English and Phonics programs — oversaw day-to-day operations and teaching quality to help learners “learn today and lead tomorrow”.</p>
+              <ul class="tags"><li>Leadership</li><li>Operations</li><li>Quality Monitoring</li><li>EdTech</li><li>IELTS &amp; English</li></ul>
               
             </div>
           </li>
@@ -587,7 +587,7 @@
             <ul class="sk-tags"><li style="--i:0">Recruitment</li><li style="--i:1">Onboarding</li><li style="--i:2">Employee records</li><li style="--i:3">Attendance &amp; leave</li><li style="--i:4">HR administration</li><li style="--i:5">Operations</li></ul>
             <div class="sk-proof">
               <span class="sk-proof__label" data-i18n="sk.proof">Where I've used it</span>
-              <ul><li><span class="sk-proof__logo"><img src="assets/images/brand/growth-it-mark.webp" alt="" width="32" height="32" loading="lazy"></span><span>HR Officer · Growth IT</span></li><li><span class="sk-proof__logo"><img src="assets/images/brand/scholars-base-mark.webp" alt="" width="32" height="32" loading="lazy"></span><span>CMO · Scholars' Base</span></li><li><span class="sk-proof__logo sk-proof__logo--dot" aria-hidden="true">✓</span><span>Operations Executive · Modern Surveyors</span></li></ul>
+              <ul><li><span class="sk-proof__logo"><img src="assets/images/brand/growth-it-mark.webp" alt="" width="32" height="32" loading="lazy"></span><span>HR Officer · Growth IT</span></li><li><span class="sk-proof__logo"><img src="assets/images/brand/scholars-base-mark.webp" alt="" width="32" height="32" loading="lazy"></span><span>Former CMO · Scholars' Base</span></li><li><span class="sk-proof__logo sk-proof__logo--dot" aria-hidden="true">✓</span><span>Operations Executive · Modern Surveyors</span></li></ul>
             </div>
           </div>
           <div class="sk-panel" role="tabpanel" id="sk-panel-ai" aria-labelledby="sk-tab-ai" tabindex="0" hidden>
@@ -877,7 +877,7 @@
 
   <footer class="footer">
     <div class="container footer__creds">
-      <span class="footer__creds-label" data-i18n="footer.creds">Certifications</span>
+      <span class="footer__creds-label" data-i18n="footer.creds">Certifications &amp; credentials</span>
       <ul>
         <li><strong>JLPT N4</strong> · Japanese-Language Proficiency Test</li>
         <li><strong>JFT-Basic A2</strong> · Japan Foundation Test</li>
@@ -1044,7 +1044,7 @@
       "rev.eyebrow": "Reviews", "rev.title": "What my students & clients say.", 
       "form.type": "I'm sending", "form.typeInq": "An inquiry", "form.typeRev": "A review / testimonial",
       "form.descPhRev": "Your review: how do you know me, and what helped you most?",
-      "jobsb.title": "CMO — Chief Monitoring Officer", "jobsb.text": "Part of the leadership team at Scholars' Base, an English-language learning centre in Bangladesh offering live online IELTS preparation, Spoken English, Kids English and Phonics programs — overseeing day-to-day operations and quality to help learners “learn today and lead tomorrow”.",
+      "jobsb.title": "CMO — Chief Monitoring Officer", "jobsb.date": "2026 – Nov 2026", "jobsb.text": "Served on the leadership team at Scholars' Base, an English-language learning centre in Bangladesh offering live online IELTS preparation, Spoken English, Kids English and Phonics programs — oversaw day-to-day operations and teaching quality to help learners “learn today and lead tomorrow”.",
       "jobgi.title": "HR Officer", "jobgi.text": "Handling the HR function — recruitment and onboarding, employee records and documentation, attendance and leave tracking, and supporting a healthy, productive workplace.",
       "rev.write": "Write a review", "rev.empty": "Studied or worked with me? Be one of the first to share your experience.",
       "rev.formTitle": "Share your experience", "rev.formIntro": "Your review helps others know what it's like to learn or work with me. It will appear on this site after a quick check.",
@@ -1073,7 +1073,7 @@
       "contact.title": "Let's work together.",
       "contact.lead": "Recruiters, employers and clients — I'd be glad to hear about your role or project.",
       "contact.cta": "Send me an email", "contact.email": "Email", "contact.direct": "Or reach me directly", "contact.langs": "I speak", "contact.wa": "Username",
-      "footer.top": "Back to top", "footer.creds": "Certifications", "ven.behind": "The person behind both companies", "ven.founderRole": "Founder & Chairman — EdQoR Academy & Projukti Bari",
+      "footer.top": "Back to top", "footer.creds": "Certifications & credentials", "ven.behind": "Founder & team lead", "ven.founderRole": "Founder & Chairman — EdQoR Academy & Projukti Bari",
 
       "ui.copied": "Copied to clipboard", "ui.copyFail": "Couldn't copy — please copy manually",
       "ui.menuOpen": "Open menu", "ui.menuClose": "Close menu", "ui.theme": "Toggle dark mode"
@@ -1145,7 +1145,7 @@
       "rev.eyebrow": "レビュー", "rev.title": "受講生・クライアントの声。", 
       "form.type": "送信内容", "form.typeInq": "お問い合わせ", "form.typeRev": "レビュー・推薦の言葉",
       "form.descPhRev": "レビュー：私との関係と、特に役立ったことをお書きください。",
-      "jobsb.title": "CMO（チーフ・モニタリング・オフィサー）", "jobsb.text": "バングラデシュの英語教育機関 Scholars' Base の経営メンバー。IELTS対策、スピーキング、キッズ英語、フォニックスなどのオンライン講座を提供しており、日々の運営と品質管理を担当しています。",
+      "jobsb.title": "CMO（チーフ・モニタリング・オフィサー）", "jobsb.date": "2026年 – 2026年11月", "jobsb.text": "バングラデシュの英語教育機関 Scholars\' Base の経営メンバーとして、IELTS対策、スピーキング、キッズ英語、フォニックスなどのオンライン講座の日々の運営と授業品質の管理を担当しました。",
       "jobgi.title": "人事担当（HRオフィサー）", "jobgi.text": "採用・入社手続き、従業員記録と書類管理、勤怠・休暇管理など人事業務全般を担当し、働きやすい職場づくりを支えています。",
       "rev.write": "レビューを書く", "rev.empty": "一緒に学んだ・働いた方は、ぜひ最初のレビューをお寄せください。",
       "rev.formTitle": "あなたの体験を共有", "rev.formIntro": "レビューは、私と学ぶ・働くとどうなのかを他の方に伝える助けになります。確認後、このサイトに掲載されます。",
@@ -1174,7 +1174,7 @@
       "contact.title": "一緒に働きましょう。",
       "contact.lead": "採用担当者さま、企業さま、クライアントさま — お仕事やプロジェクトのご相談をお待ちしています。",
       "contact.cta": "メールを送る", "contact.email": "メール", "contact.direct": "直接のご連絡はこちら", "contact.langs": "対応言語", "contact.wa": "ユーザー名",
-      "footer.top": "トップへ戻る", "footer.creds": "資格", "ven.behind": "両社の代表", "ven.founderRole": "創業者・会長 — EdQoR Academy・Projukti Bari",
+      "footer.top": "トップへ戻る", "footer.creds": "資格・認定", "ven.behind": "創業者・代表", "ven.founderRole": "創業者・会長 — EdQoR Academy・Projukti Bari",
 
       "ui.copied": "コピーしました", "ui.copyFail": "コピーできませんでした",
       "ui.menuOpen": "メニューを開く", "ui.menuClose": "メニューを閉じる", "ui.theme": "ダークモード切替"
@@ -1357,9 +1357,9 @@
       setTimeout(() => el.remove(), 900);
     };
     const start = performance.now();
-    const finish = () => setTimeout(done, Math.max(0, 1700 - (performance.now() - start)));
+    const finish = () => setTimeout(done, Math.max(0, 900 - (performance.now() - start)));
     if (document.readyState === "complete") finish(); else addEventListener("load", finish, { once: true });
-    setTimeout(done, 3200); // safety
+    setTimeout(done, 2200); // safety
     el.addEventListener("click", done);
   }
 
